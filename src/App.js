@@ -6,7 +6,6 @@ function App() {
     
     <>
     ;<>
-  <div id="wrapper-container" className="wrapper-container">
     <div id="apus-mobile-menu" className="apus-offcanvas hidden-lg">
       <button
         type="button"
@@ -3848,7 +3847,10 @@ function App() {
     <a href="#" id="back-to-top">
       <i className="fas fa-long-arrow-alt-up" />
     </a>
-  </div>
+    
+
+
+    
   {/* .site */}
   <div className="hidden" id="apus_login_register_form_wrapper">
     <div className="apus_login_register_form" data-effect="fadeIn">
