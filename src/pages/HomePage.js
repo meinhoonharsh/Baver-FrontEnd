@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
 import LandingSlider from "../components/LandingSlider";
 import MobileMenu from "../components/MobileMenu";
+import MostPopularDeals from "../components/MostPopularDeals";
 
 export default function HomePage() {
   return (
@@ -24,7 +25,7 @@ export default function HomePage() {
                   <div className="elementor-inner">
                     <div className="elementor-section-wrap">
                      <LandingSlider />
-                      
+                      <MostPopularDeals />
                       <section
                         className="elementor-element elementor-element-1daa8f5 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                         data-id="1daa8f5"
