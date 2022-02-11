@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
+import HomeCTA from "../components/HomeCTA";
 import LandingSlider from "../components/LandingSlider";
 import MobileMenu from "../components/MobileMenu";
 import MostPopularDeals from "../components/MostPopularDeals";
@@ -30,7 +31,7 @@ export default function HomePage() {
                       <MostPopularDeals />
                       <TopPlaces/>
                       <TrendingHorecas />
-                     
+                      <HomeCTA />
                     
                       <section
                         className="elementor-element elementor-element-131e165 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
