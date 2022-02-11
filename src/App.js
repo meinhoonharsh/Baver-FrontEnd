@@ -5,7 +5,7 @@ function App() {
   return (
     
     <>
-    ;<>
+    
     <div id="apus-mobile-menu" className="apus-offcanvas hidden-lg">
       <button
         type="button"
@@ -4156,7 +4156,7 @@ function App() {
   </div>
 </>
 
-    </>
+    
   );
 }
 
