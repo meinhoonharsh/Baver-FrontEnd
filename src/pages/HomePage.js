@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
 import MobileMenu from "../components/MobileMenu";
 
@@ -7,7 +8,7 @@ export default function HomePage() {
     <>
       <MobileMenu />
       <HeaderMobile />
-      
+      <Header />
       <div id="apus-main-content">
         <div id="main-container" className="container inner">
           <div className="row">
