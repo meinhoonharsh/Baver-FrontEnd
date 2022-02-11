@@ -1,11 +1,12 @@
 import React from "react";
+import HeaderMobile from "../components/HeaderMobile";
 import MobileMenu from "../components/MobileMenu";
 
 export default function HomePage() {
   return (
     <>
-    <MobileMenu />
-      
+      <MobileMenu />
+      <HeaderMobile />
       <div id="apus-header" className="apus-header visible-lg header-1-78">
         <div className="main-sticky-header">
           <div
