@@ -22,7 +22,7 @@ export default function HomePage() {
                 >
                   <div className="elementor-inner">
                     <div className="elementor-section-wrap">
-                      <section
+                     <section
                         className="elementor-element elementor-element-83bffcd elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                         data-id="83bffcd"
                         data-element_type="section"
@@ -380,7 +380,7 @@ export default function HomePage() {
                             </div>
                           </div>
                         </div>
-                      </section>
+                      </section> 
                       <section
                         className="elementor-element elementor-element-8e949d9 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                         data-id="8e949d9"
