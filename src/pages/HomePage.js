@@ -4,6 +4,7 @@ import HeaderMobile from "../components/HeaderMobile";
 import LandingSlider from "../components/LandingSlider";
 import MobileMenu from "../components/MobileMenu";
 import MostPopularDeals from "../components/MostPopularDeals";
+import TopPlaces from "../components/TopPlaces";
 
 export default function HomePage() {
   return (
@@ -26,7 +27,7 @@ export default function HomePage() {
                     <div className="elementor-section-wrap">
                      <LandingSlider />
                       <MostPopularDeals />
-                      
+                      <TopPlaces/>
                       <section
                         className="elementor-element elementor-element-18d1396 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                         data-id="18d1396"
