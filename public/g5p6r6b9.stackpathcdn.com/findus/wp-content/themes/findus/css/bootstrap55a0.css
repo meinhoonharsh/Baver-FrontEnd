@@ -3747,7 +3747,7 @@ a {
   transition: color 0.3s ease;
 }
 a:hover, a:focus {
-  color: #ff431e;
+  color: #fa983a;
   outline: 0;
 }
 a:focus {
@@ -5949,7 +5949,7 @@ select[multiple].input-lg,
   outline-offset: -2px;
 }
 .btn:hover, .btn:focus {
-  color: #ff431e;
+  color: #fa983a;
   text-decoration: none;
 }
 .btn:active, .btn.active {
@@ -6114,7 +6114,7 @@ select[multiple].input-lg,
   border-color: transparent;
 }
 .btn-link:hover, .btn-link:focus {
-  color: #ff431e;
+  color: #fa983a;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -6255,12 +6255,12 @@ tbody.collapse.in {
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #ff431e;
+  color: #fa983a;
   background-color: #f9f9f9;
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-  color: #ff431e;
+  color: #fa983a;
   text-decoration: none;
   outline: 0;
   background-color: #f9f9f9;
@@ -7308,7 +7308,7 @@ tbody.collapse.in {
   color: #000;
 }
 .breadcrumb a:hover {
-  color: #ff431e;
+  color: #fa983a;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -7360,7 +7360,7 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #ff431e;
+  color: #fa983a;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -8627,7 +8627,7 @@ button.close {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background-color: #ff431e;
+  background-color: #fa983a;
   border-radius: 3px;
 }
 
@@ -8644,52 +8644,52 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #ff431e;
+  border-top-color: #fa983a;
 }
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   left: 5px;
   border-width: 5px 5px 0;
-  border-top-color: #ff431e;
+  border-top-color: #fa983a;
 }
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   right: 5px;
   border-width: 5px 5px 0;
-  border-top-color: #ff431e;
+  border-top-color: #fa983a;
 }
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #ff431e;
+  border-right-color: #fa983a;
 }
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #ff431e;
+  border-left-color: #fa983a;
 }
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #ff431e;
+  border-bottom-color: #fa983a;
 }
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   left: 5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #ff431e;
+  border-bottom-color: #fa983a;
 }
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   right: 5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #ff431e;
+  border-bottom-color: #fa983a;
 }
 
 .popover {
