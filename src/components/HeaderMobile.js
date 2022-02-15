@@ -19,10 +19,14 @@ export default function HeaderMobile() {
                 </div>
                 <div className="logo logo-theme">
                   <a href="https://www.demoapus-wp1.com/findus/">
-                    <img
-                      src="g5p6r6b9.stackpathcdn.com/findus/wp-content/themes/findus/images/logo.png"
-                      alt="Findus"
-                    />
+                    <h2
+                      style={{
+                        color: "white",
+                        margin: 0
+                      }}
+                    >
+                      Baver
+                    </h2>
                   </a>
                 </div>
               </div>
