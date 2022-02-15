@@ -41,22 +41,15 @@ export default function Header() {
                                     href="https://www.demoapus-wp1.com/findus/"
                                   >
                                     <span className="logo-main has-transparent-logo">
-                                      <img
-                                        width={160}
-                                        height={32}
-                                        src="g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/logo-3.png"
-                                        className="attachment-full size-full"
-                                        alt
-                                      />
+                                      <h2 style={{
+                                        margin: 0,
+                                      }}>Baver</h2>
                                     </span>
                                     <span className="transparent-logo">
-                                      <img
-                                        width={160}
-                                        height={32}
-                                        src="g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/logo-light-2.png"
-                                        className="attachment-full size-full"
-                                        alt
-                                      />
+                                      <h2 style={{
+                                        color:'white',
+                                        margin: 0,
+                                      }}>Baver</h2>
                                     </span>
                                   </a>
                                 </div>
