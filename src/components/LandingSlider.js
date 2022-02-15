@@ -132,7 +132,7 @@ export default function LandingSlider() {
                                   data-frame_hover="bgc:rgba(255,67,30,0.6);bor:0px,0px,0px,0px;bri:120%;"
                                   style={{
                                     zIndex: 8,
-                                    backgroundColor: "#ff431e",
+                                    backgroundColor: "#fa983a",
                                     fontFamily: "Muli",
                                     textTransform: "uppercase"
                                   }}
@@ -229,7 +229,7 @@ export default function LandingSlider() {
                                   data-frame_hover="bgc:rgba(255,67,30,0.6);bor:0px,0px,0px,0px;bri:120%;"
                                   style={{
                                     zIndex: 8,
-                                    backgroundColor: "#ff431e",
+                                    backgroundColor: "#fa983a",
                                     fontFamily: "Muli",
                                     textTransform: "uppercase"
                                   }}
@@ -330,7 +330,7 @@ export default function LandingSlider() {
                                   data-frame_hover="bgc:rgba(255,67,30,0.6);bor:0px,0px,0px,0px;bri:120%;"
                                   style={{
                                     zIndex: 8,
-                                    backgroundColor: "#ff431e",
+                                    backgroundColor: "#fa983a",
                                     fontFamily: "Muli",
                                     textTransform: "uppercase"
                                   }}
