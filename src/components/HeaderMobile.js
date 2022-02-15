@@ -21,7 +21,6 @@ export default function HeaderMobile() {
                   <a href="https://www.demoapus-wp1.com/findus/">
                     <h2
                       style={{
-                        color: "white",
                         margin: 0
                       }}
                     >
