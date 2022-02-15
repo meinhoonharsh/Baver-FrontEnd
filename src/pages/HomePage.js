@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
 import HomeCTA from "../components/HomeCTA";
@@ -45,7 +46,7 @@ export default function HomePage() {
       <a href="#" id="back-to-top">
         <i className="fas fa-long-arrow-alt-up" />
       </a>
-
+      <Footer />
       {/* .site */}
       <div className="hidden" id="apus_login_register_form_wrapper">
         <div className="apus_login_register_form" data-effect="fadeIn">
