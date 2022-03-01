@@ -1,6 +1,23 @@
 import React from "react";
 
 export default function MostPopularDeals() {
+  const mostPopularDeals = [
+    {
+      category: "Food & Restaurants"
+    },
+    {
+      category: "Hotels"
+    },
+    {
+      category: "Travel & Tours"
+    },
+    {
+      category: "Lifestyle"
+    },
+    {
+      category:"Entertainment"
+    }
+  ];
   return (
     <>
       <section
@@ -38,8 +55,8 @@ export default function MostPopularDeals() {
                   >
                     <div className="elementor-widget-container">
                       <h2 className="elementor-heading-title elementor-size-default">
-                        Most Popular{" "}
-                        <span className="text-theme">Categories</span>
+                        Most Popular
+                        <span className="text-theme">Deals</span>
                       </h2>
                     </div>
                   </div>
@@ -111,212 +128,37 @@ export default function MostPopularDeals() {
                           data-autoplay="false"
                           data-loop="true"
                         >
-                          <a href="https://www.demoapus-wp1.com/findus/listing-category/business/">
-                            <div className="category-banner-list style2">
-                              <div className="banner-image">
-                                <div className="image-wrapper">
-                                  <img
-                                    width={1920}
-                                    height={1278}
-                                    src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 1920 1278'%2F%3E"
-                                    className="attachment-full size-full unveil-image"
-                                    alt
-                                    data-src="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business.jpg"
-                                    data-srcset="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business.jpg 1920w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business-300x200.jpg 300w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business-1024x682.jpg 1024w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business-768x511.jpg 768w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business-1536x1022.jpg 1536w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/business-600x399.jpg 600w"
-                                    data-sizes="(max-width: 1920px) 100vw, 1920px"
-                                  />
-                                </div>
-                              </div>
-                              <div className="inner">
-                                <div className="left-inner">
-                                  <div
-                                    className="category-icon"
-                                    style={{
-                                      backgroundColor: "#5565D0"
-                                    }}
-                                  >
-                                    <i className="fas fa-briefcase" />
+                          {mostPopularDeals.map((deal, index) => (
+                            <a href="https://www.demoapus-wp1.com/findus/listing-category/business/">
+                              <div className="category-banner-list style2">
+                                <div className="banner-image">
+                                  <div className="image-wrapper">
+                                    <img
+                                      src="https://www.demoapus-wp1.com/wp-content/uploads/2019/11/banner-1.jpg"
+                                    />
                                   </div>
-                                  <h4 className="title">Business </h4>
                                 </div>
-                                <div className="bottom-link">
-                                  <span className="btn-forwarded">Browse</span>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          <a href="https://www.demoapus-wp1.com/findus/listing-category/education/">
-                            <div className="category-banner-list style2">
-                              <div className="banner-image">
-                                <div className="image-wrapper">
-                                  <img
-                                    width={1280}
-                                    height={854}
-                                    src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 1280 854'%2F%3E"
-                                    className="attachment-full size-full unveil-image"
-                                    alt
-                                    data-src="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/education.jpg"
-                                    data-srcset="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/education.jpg 1280w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/education-300x200.jpg 300w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/education-1024x683.jpg 1024w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/education-768x512.jpg 768w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/education-600x400.jpg 600w"
-                                    data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                  />
-                                </div>
-                              </div>
-                              <div className="inner">
-                                <div className="left-inner">
-                                  <div
-                                    className="category-icon"
-                                    style={{
-                                      backgroundColor: "#F73D51"
-                                    }}
-                                  >
-                                    <i className="fas fa-graduation-cap" />
+                                <div className="inner">
+                                  <div className="left-inner">
+                                    <div
+                                      className="category-icon"
+                                      style={{
+                                        backgroundColor: "#5565D0"
+                                      }}
+                                    >
+                                      <i className="fas fa-briefcase" />
+                                    </div>
+                                    <h4 className="title">{deal.category}</h4>
                                   </div>
-                                  <h4 className="title">Education </h4>
-                                </div>
-                                <div className="bottom-link">
-                                  <span className="btn-forwarded">Browse</span>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          <a href="https://www.demoapus-wp1.com/findus/listing-category/food-restaurants/">
-                            <div className="category-banner-list style2">
-                              <div className="banner-image">
-                                <div className="image-wrapper">
-                                  <img
-                                    width={1280}
-                                    height={720}
-                                    src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 1280 720'%2F%3E"
-                                    className="attachment-full size-full unveil-image"
-                                    alt
-                                    data-src="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/food.jpg"
-                                    data-srcset="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/food.jpg 1280w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/food-300x169.jpg 300w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/food-1024x576.jpg 1024w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/food-768x432.jpg 768w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/food-600x338.jpg 600w"
-                                    data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                  />
-                                </div>
-                              </div>
-                              <div className="inner">
-                                <div className="left-inner">
-                                  <div
-                                    className="category-icon"
-                                    style={{
-                                      backgroundColor: "#F5B83B"
-                                    }}
-                                  >
-                                    <i className="fas fa-glass-martini-alt" />
+                                  <div className="bottom-link">
+                                    <span className="btn-forwarded">
+                                      Browse
+                                    </span>
                                   </div>
-                                  <h4 className="title">
-                                    Food &amp; Restaurants
-                                  </h4>
-                                </div>
-                                <div className="bottom-link">
-                                  <span className="btn-forwarded">Browse</span>
                                 </div>
                               </div>
-                            </div>
-                          </a>
-                          <a href="https://www.demoapus-wp1.com/findus/listing-category/sport/">
-                            <div className="category-banner-list style2">
-                              <div className="banner-image">
-                                <div className="image-wrapper">
-                                  <img
-                                    width={1280}
-                                    height={914}
-                                    src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 1280 914'%2F%3E"
-                                    className="attachment-full size-full unveil-image"
-                                    alt
-                                    data-src="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/sport.jpg"
-                                    data-srcset="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/sport.jpg 1280w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/sport-300x214.jpg 300w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/sport-1024x731.jpg 1024w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/sport-768x548.jpg 768w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/sport-600x428.jpg 600w"
-                                    data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                  />
-                                </div>
-                              </div>
-                              <div className="inner">
-                                <div className="left-inner">
-                                  <div
-                                    className="category-icon"
-                                    style={{
-                                      backgroundColor: "#37B475"
-                                    }}
-                                  >
-                                    <i className="fas fa-futbol" />
-                                  </div>
-                                  <h4 className="title">Sport </h4>
-                                </div>
-                                <div className="bottom-link">
-                                  <span className="btn-forwarded">Browse</span>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          <a href="https://www.demoapus-wp1.com/findus/listing-category/intertainment/">
-                            <div className="category-banner-list style2">
-                              <div className="banner-image">
-                                <div className="image-wrapper">
-                                  <img
-                                    width={1280}
-                                    height={853}
-                                    src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 1280 853'%2F%3E"
-                                    className="attachment-full size-full unveil-image"
-                                    alt
-                                    data-src="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/travel.jpg"
-                                    data-srcset="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/travel.jpg 1280w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/travel-300x200.jpg 300w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/travel-1024x682.jpg 1024w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/travel-768x512.jpg 768w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/travel-600x400.jpg 600w"
-                                    data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                  />
-                                </div>
-                              </div>
-                              <div className="inner">
-                                <div className="left-inner">
-                                  <div
-                                    className="category-icon"
-                                    style={{
-                                      backgroundColor: "#FD5C05"
-                                    }}
-                                  >
-                                    <i className="fab fa-fly" />
-                                  </div>
-                                  <h4 className="title">Intertainment </h4>
-                                </div>
-                                <div className="bottom-link">
-                                  <span className="btn-forwarded">Browse</span>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          <a href="https://www.demoapus-wp1.com/findus/listing-category/travel-tour/">
-                            <div className="category-banner-list style2">
-                              <div className="banner-image">
-                                <div className="image-wrapper">
-                                  <img
-                                    width={1280}
-                                    height={853}
-                                    src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 1280 853'%2F%3E"
-                                    className="attachment-full size-full unveil-image"
-                                    alt
-                                    data-src="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/shopping.jpg"
-                                    data-srcset="https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/shopping.jpg 1280w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/shopping-300x200.jpg 300w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/shopping-1024x682.jpg 1024w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/shopping-768x512.jpg 768w, https://g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/shopping-600x400.jpg 600w"
-                                    data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                  />
-                                </div>
-                              </div>
-                              <div className="inner">
-                                <div className="left-inner">
-                                  <div
-                                    className="category-icon"
-                                    style={{
-                                      backgroundColor: "#F73D51"
-                                    }}
-                                  >
-                                    <i className="fas fa-plane-departure" />
-                                  </div>
-                                  <h4 className="title">Travel &amp; Tour </h4>
-                                </div>
-                                <div className="bottom-link">
-                                  <span className="btn-forwarded">Browse</span>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
+                            </a>
+                          ))}
                         </div>
                       </div>
                     </div>
