@@ -109,11 +109,12 @@ export default function TopPlaces() {
                               className="city-image"
                               style={{
                                 backgroundImage:
-                                  "url(g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/place-3.jpg)"
+                                "url(https://t4.ftcdn.net/jpg/02/40/98/49/360_F_240984942_eZXNlIqQ0SRIMyIZMOqVYG3kAmKqpCPJ.jpg)"
+                                
                               }}
                             ></div>
                             <div className="inner-content">
-                              <h4 className="title">New Zealand </h4>
+                              <h4 className="title">Bhopal </h4>
                               <span className="more_text">
                                 Get All Listing{" "}
                               </span>
@@ -153,11 +154,11 @@ export default function TopPlaces() {
                               className="city-image"
                               style={{
                                 backgroundImage:
-                                  "url(g5p6r6b9.stackpathcdn.com/findus/wp-content/uploads/2020/01/place-4.jpg)"
+                                  "url(https://thumbs.dreamstime.com/b/ancient-rajwada-indore-night-lights-royal-palace-decoration-statue-sculpture-ahilya-bai-holkar-also-seen-40777212.jpg)"
                               }}
                             ></div>
                             <div className="inner-content">
-                              <h4 className="title">London </h4>
+                              <h4 className="title">Indore</h4>
                               <span className="more_text">
                                 Get All Listing{" "}
                               </span>
