@@ -26,7 +26,20 @@ export default function TrendingHorecas() {
       type: "Sweets",
       rating: "4.5",
       contact: "1234567890"
+    },
+    {
+      name: "Akshdeep Salon",
+      location: "RGPV Nagar, Bhopal",
+      lat_long: "23.25,77.4",
+      city: "Bhopal",
+      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      open_time: "10:00 AM",
+      close_time: "10:00 PM",
+      type: "Salon",
+      rating: "4.5",
+      contact: "1234567890"
     }
+
   ];
   return (
     <>
