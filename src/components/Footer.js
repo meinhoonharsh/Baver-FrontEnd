@@ -195,7 +195,7 @@ export default function Footer() {
                                         <i className="ti-location-pin" />
                                       </span>
                                       <span className="elementor-icon-list-text">
-                                        7744 North, New York
+                                        UIT RGPV, Bhopal
                                       </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
@@ -203,7 +203,7 @@ export default function Footer() {
                                         <i className="ti-email" />
                                       </span>
                                       <span className="elementor-icon-list-text">
-                                        support@example.com
+                                        support@baver.in
                                       </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
@@ -219,7 +219,7 @@ export default function Footer() {
                                         <i className="ti-world" />
                                       </span>
                                       <span className="elementor-icon-list-text">
-                                        www.apusthemes.com
+                                        www.baver.in
                                       </span>
                                     </li>
                                   </ul>
@@ -265,23 +265,13 @@ export default function Footer() {
                                     </a>
                                     <a
                                       className="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-805629b"
-                                      href="#"
+                                      href="https://www.instagram.com/baver.in/"
                                       target="_blank"
                                     >
                                       <span className="elementor-screen-only">
                                         Instagram
                                       </span>
                                       <i className="fab fa-instagram" />{" "}
-                                    </a>
-                                    <a
-                                      className="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-fb4e9d5"
-                                      href="#"
-                                      target="_blank"
-                                    >
-                                      <span className="elementor-screen-only">
-                                        Pinterest
-                                      </span>
-                                      <i className="fab fa-pinterest" />{" "}
                                     </a>
                                   </div>
                                 </div>
@@ -422,9 +412,9 @@ export default function Footer() {
                                 <div className="elementor-widget-container">
                                   <div className="elementor-text-editor elementor-clearfix">
                                     <div>
-                                      Copyright@ 2020 Listing Hub Powered By{" "}
+                                      Copyright@ 2022 {" "}
                                       <a className="text-white" href="#">
-                                        ApusTheme
+                                        Baver
                                       </a>
                                     </div>
                                   </div>
