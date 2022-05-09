@@ -38,6 +38,30 @@ export default function TrendingHorecas() {
       type: "Salon",
       rating: "4.5",
       contact: "1234567890"
+    },
+    {
+      name: "Lode Lge Pade hai Cafe",
+      location: "UIT Villa, Bhopal",
+      lat_long: "23.25,77.4",
+      city: "Bhopal",
+      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      open_time: "10:00 AM",
+      close_time: "10:00 PM",
+      type: "Sweets",
+      rating: "4.5",
+      contact: "1234567890"
+    },
+    {
+      name: "Aangara",
+      location: "UIT Villa, Bhopal",
+      lat_long: "23.25,77.4",
+      city: "Bhopal",
+      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      open_time: "10:00 AM",
+      close_time: "10:00 PM",
+      type: "Sweets",
+      rating: "4.5",
+      contact: "1234567890"
     }
 
   ];
@@ -166,9 +190,17 @@ export default function TrendingHorecas() {
                     data-widget_type="apus_listings.default"
                   >
                     <div className="elementor-widget-container">
-                      <div className="widget-listing style-grid   ">
+                      <div className="widget-listing-category-list-banner style2">
                         <div className="widget-content ">
-                          <div className="row">
+                          <div className="slick-carousel"
+                          data-items={3}
+                          data-medium={2}
+                          data-smallmedium={1}
+                          data-extrasmall={1}
+                          data-pagination="true"
+                          data-nav="true"
+                          data-autoplay="false"
+                          data-loop="true">
                             {Horecas.map((horeca, index) => {
                               return(
                                 <div className="full-smallest col-xs-12 col-sm-6 col-md-4">
