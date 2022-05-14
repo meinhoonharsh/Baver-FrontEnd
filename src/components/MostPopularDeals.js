@@ -3,20 +3,20 @@ import React from "react";
 export default function MostPopularDeals() {
   const mostPopularDeals = [
     {
-      category: "Food & Restaurants"
+      category: "Food & Restaurants",
     },
     {
-      category: "Hotels"
+      category: "Hotels",
     },
     {
-      category: "Travel & Tours"
+      category: "Travel & Tours",
     },
     {
-      category: "Lifestyle"
+      category: "Lifestyle",
     },
     {
-      category:"Entertainment"
-    }
+      category: "Entertainment",
+    },
   ];
   return (
     <>
@@ -129,13 +129,14 @@ export default function MostPopularDeals() {
                           data-loop="true"
                         >
                           {mostPopularDeals.map((deal, index) => (
-                            <a href="https://www.demoapus-wp1.com/findus/listing-category/business/">
+                            <a
+                              key={index}
+                              href="https://www.demoapus-wp1.com/findus/listing-category/business/"
+                            >
                               <div className="category-banner-list style2">
                                 <div className="banner-image">
                                   <div className="image-wrapper">
-                                    <img
-                                      src="https://www.demoapus-wp1.com/wp-content/uploads/2019/11/banner-1.jpg"
-                                    />
+                                    <img src="https://www.demoapus-wp1.com/wp-content/uploads/2019/11/banner-1.jpg" />
                                   </div>
                                 </div>
                                 <div className="inner">
@@ -143,7 +144,7 @@ export default function MostPopularDeals() {
                                     <div
                                       className="category-icon"
                                       style={{
-                                        backgroundColor: "#5565D0"
+                                        backgroundColor: "#5565D0",
                                       }}
                                     >
                                       <i className="fas fa-briefcase" />
