@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
@@ -8,8 +8,31 @@ import MobileMenu from "../components/MobileMenu";
 import MostPopularDeals from "../components/MostPopularDeals";
 import TopPlaces from "../components/TopPlaces";
 import TrendingHorecas from "../components/TrendingHorecas";
+import { GoogleLogin, GoogleLogout } from "react-google-login";
+
+const clientId = process.env.GOOGLE_CLIENT_ID;
 
 export default function HomePage() {
+  const [showloginButton, setShowloginButton] = useState(true);
+  const [showlogoutButton, setShowlogoutButton] = useState(false);
+
+  const onLoginSuccess = (res) => {
+    console.log("Login Success:", res.profileObj);
+    setShowloginButton(false);
+    setShowlogoutButton(true);
+  };
+
+  const onLoginFailure = (res) => {
+    console.log("Login Failed:", res);
+  };
+
+  const onSignoutSuccess = () => {
+    alert("You have been logged out successfully");
+    console.clear();
+    setShowloginButton(true);
+    setShowlogoutButton(false);
+  };
+
   return (
     <>
       <MobileMenu />
@@ -130,6 +153,26 @@ export default function HomePage() {
                             name="submit"
                             defaultValue="Login"
                           />
+                        </div>
+                        <div>
+                          {showloginButton ? (
+                            <GoogleLogin
+                              clientId={clientId}
+                              buttonText="Sign In"
+                              onSuccess={onLoginSuccess}
+                              onFailure={onLoginFailure}
+                              cookiePolicy={"single_host_origin"}
+                              isSignedIn={true}
+                            />
+                          ) : null}
+
+                          {showlogoutButton ? (
+                            <GoogleLogout
+                              clientId={clientId}
+                              buttonText="Sign Out"
+                              onLogoutSuccess={onSignoutSuccess}
+                            ></GoogleLogout>
+                          ) : null}
                         </div>
                         <input
                           type="hidden"

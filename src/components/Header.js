@@ -41,15 +41,23 @@ export default function Header() {
                                     href="https://www.demoapus-wp1.com/findus/"
                                   >
                                     <span className="logo-main has-transparent-logo">
-                                      <h2 style={{
-                                        margin: 0,
-                                      }}>Baver</h2>
+                                      <h2
+                                        style={{
+                                          margin: 0,
+                                        }}
+                                      >
+                                        Baver
+                                      </h2>
                                     </span>
                                     <span className="transparent-logo">
-                                      <h2 style={{
-                                        color:'white',
-                                        margin: 0,
-                                      }}>Baver</h2>
+                                      <h2
+                                        style={{
+                                          color: "white",
+                                          margin: 0,
+                                        }}
+                                      >
+                                        Baver
+                                      </h2>
                                     </span>
                                   </a>
                                 </div>
@@ -260,15 +268,6 @@ export default function Header() {
                                         className="apus-user-login wel-user"
                                       >
                                         Sign in
-                                      </a>
-                                    </li>
-                                    <li className="space">or</li>
-                                    <li>
-                                      <a
-                                        href="#apus_register_tab"
-                                        className="apus-user-register wel-user"
-                                      >
-                                        Register
                                       </a>
                                     </li>
                                   </ul>
