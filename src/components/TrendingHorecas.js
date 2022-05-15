@@ -13,57 +13,60 @@ export default function TrendingHorecas() {
       close_time: "10:00 PM",
       type: "Cafe",
       rating: "4.5",
-      contact: "1234567890"
+      contact: "1234567890",
     },
     {
       name: "Mathur Kushwaha Sweets",
       location: "UIT Villa, Bhopal",
       lat_long: "23.25,77.4",
       city: "Bhopal",
-      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      cover_image:
+        "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       open_time: "10:00 AM",
       close_time: "10:00 PM",
       type: "Sweets",
       rating: "4.5",
-      contact: "1234567890"
+      contact: "1234567890",
     },
     {
       name: "Akshdeep Salon",
       location: "RGPV Nagar, Bhopal",
       lat_long: "23.25,77.4",
       city: "Bhopal",
-      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      cover_image:
+        "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       open_time: "10:00 AM",
       close_time: "10:00 PM",
       type: "Salon",
       rating: "4.5",
-      contact: "1234567890"
+      contact: "1234567890",
     },
     {
       name: "Lode Lge Pade hai Cafe",
       location: "UIT Villa, Bhopal",
       lat_long: "23.25,77.4",
       city: "Bhopal",
-      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      cover_image:
+        "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       open_time: "10:00 AM",
       close_time: "10:00 PM",
       type: "Sweets",
       rating: "4.5",
-      contact: "1234567890"
+      contact: "1234567890",
     },
     {
       name: "Aangara",
       location: "UIT Villa, Bhopal",
       lat_long: "23.25,77.4",
       city: "Bhopal",
-      cover_image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      cover_image:
+        "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       open_time: "10:00 AM",
       close_time: "10:00 PM",
       type: "Sweets",
       rating: "4.5",
-      contact: "1234567890"
-    }
-
+      contact: "1234567890",
+    },
   ];
   return (
     <>
@@ -192,18 +195,23 @@ export default function TrendingHorecas() {
                     <div className="elementor-widget-container">
                       <div className="widget-listing-category-list-banner style2">
                         <div className="widget-content ">
-                          <div className="slick-carousel"
-                          data-items={3}
-                          data-medium={2}
-                          data-smallmedium={1}
-                          data-extrasmall={1}
-                          data-pagination="true"
-                          data-nav="true"
-                          data-autoplay="false"
-                          data-loop="true">
+                          <div
+                            className="slick-carousel"
+                            data-items={3}
+                            data-medium={2}
+                            data-smallmedium={1}
+                            data-extrasmall={1}
+                            data-pagination="true"
+                            data-nav="true"
+                            data-autoplay="false"
+                            data-loop="true"
+                          >
                             {Horecas.map((horeca, index) => {
-                              return(
-                                <div className="full-smallest col-xs-12 col-sm-6 col-md-4">
+                              return (
+                                <div
+                                  key={index}
+                                  className="full-smallest col-xs-12 col-sm-6 col-md-4"
+                                >
                                   <div
                                     className="job-grid-style post-524 job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_category-food-restaurants job_listing_category-shopping job_listing_type-freelance job_listing_amenity-accepts-credit-cards job_listing_amenity-alarm-system job_listing_amenity-bike-parking job_listing_amenity-coupons job_listing_amenity-elevator job_listing_amenity-outdoor-seating job_listing_amenity-parking-street job_listing_amenity-reservations job_listing_amenity-security-cameras job_listing_amenity-smoking-allowed job_listing_amenity-wireless-internet job_listing_region-new-york job_listing_region-usa job-type-freelance"
                                     data-latitude="40.760552"
@@ -223,8 +231,7 @@ export default function TrendingHorecas() {
                                             height={300}
                                             src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 540 300'%2F%3E"
                                             className="attachment-findus-card-image size-findus-card-image unveil-image"
-                                            alt
-                                           />
+                                          />
                                         </div>
                                       </a>
                                       <div className="flags-top-wrapper">
@@ -271,7 +278,6 @@ export default function TrendingHorecas() {
                                                 height={150}
                                                 src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 150 150'%2F%3E"
                                                 className="attachment-thumbnail size-thumbnail unveil-image"
-                                                alt
                                               />
                                             </div>
                                           </div>
@@ -303,7 +309,7 @@ export default function TrendingHorecas() {
                                             </a>
                                             <span
                                               className="phone-show"
-                                              onclick="this.parentNode.classList.add('show');"
+                                              onClick="this.parentNode.classList.add('show');"
                                             >
                                               <i className="flaticon-call" />
                                               {horeca.contact}
@@ -318,7 +324,7 @@ export default function TrendingHorecas() {
                                               <span
                                                 className="icon-cate"
                                                 style={{
-                                                  background: "#fd5c05"
+                                                  background: "#fd5c05",
                                                 }}
                                               >
                                                 <i className="fas fa-wine-glass" />
@@ -334,7 +340,7 @@ export default function TrendingHorecas() {
                                                   <span
                                                     className="icon-cate"
                                                     style={{
-                                                      background: "#f73d51"
+                                                      background: "#f73d51",
                                                     }}
                                                   >
                                                     <i className="fas fa-briefcase" />

@@ -100,17 +100,13 @@ export default function TopPlaces() {
                   >
                     <div className="elementor-widget-container">
                       <div className="city-banner ">
-                        <a
-                          className
-                          href="https://www.demoapus-wp1.com/findus/region/new-zealand/"
-                        >
+                        <a href="https://www.demoapus-wp1.com/findus/region/new-zealand/">
                           <div className="city-banner-inner">
                             <div
                               className="city-image"
                               style={{
                                 backgroundImage:
-                                "url(https://t4.ftcdn.net/jpg/02/40/98/49/360_F_240984942_eZXNlIqQ0SRIMyIZMOqVYG3kAmKqpCPJ.jpg)"
-                                
+                                  "url(https://t4.ftcdn.net/jpg/02/40/98/49/360_F_240984942_eZXNlIqQ0SRIMyIZMOqVYG3kAmKqpCPJ.jpg)",
                               }}
                             ></div>
                             <div className="inner-content">
@@ -145,16 +141,13 @@ export default function TopPlaces() {
                   >
                     <div className="elementor-widget-container">
                       <div className="city-banner ">
-                        <a
-                          className
-                          href="https://www.demoapus-wp1.com/findus/region/london/"
-                        >
+                        <a href="https://www.demoapus-wp1.com/findus/region/london/">
                           <div className="city-banner-inner">
                             <div
                               className="city-image"
                               style={{
                                 backgroundImage:
-                                  "url(https://thumbs.dreamstime.com/b/ancient-rajwada-indore-night-lights-royal-palace-decoration-statue-sculpture-ahilya-bai-holkar-also-seen-40777212.jpg)"
+                                  "url(https://thumbs.dreamstime.com/b/ancient-rajwada-indore-night-lights-royal-palace-decoration-statue-sculpture-ahilya-bai-holkar-also-seen-40777212.jpg)",
                               }}
                             ></div>
                             <div className="inner-content">

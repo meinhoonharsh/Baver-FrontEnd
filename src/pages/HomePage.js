@@ -1,5 +1,7 @@
 import React from "react";
+import FaceBookLogin from "../components/FaceBookLogin";
 import Footer from "../components/Footer";
+import GoogleButton from "../components/GoogleButton";
 import Header from "../components/Header";
 import HeaderMobile from "../components/HeaderMobile";
 import HomeCTA from "../components/HomeCTA";
@@ -15,6 +17,7 @@ export default function HomePage() {
       <MobileMenu />
       <HeaderMobile />
       <Header />
+
       <div id="apus-main-content">
         <div id="main-container" className="container inner">
           <div className="row">
@@ -57,11 +60,6 @@ export default function HomePage() {
                 className="tab-pane fade active in"
               >
                 <h3 className="title-account">Signin</h3>
-                <div className="sign-in-demo-notice">
-                  Username: <strong>demo</strong>
-                  <br />
-                  Password: <strong>demo</strong>
-                </div>
                 <div className="form-acount" tabIndex={-1} role="dialog">
                   <div className="inner">
                     <div id="apus_login_form" className="form-container">
@@ -129,8 +127,11 @@ export default function HomePage() {
                             className="btn btn-theme btn-outline btn-block"
                             name="submit"
                             defaultValue="Login"
+                            value={"Login"}
                           />
                         </div>
+                        <GoogleButton />
+                        <FaceBookLogin />
                         <input
                           type="hidden"
                           id="security_login"
@@ -218,11 +219,6 @@ export default function HomePage() {
               </div>
               <div id="apus_register_form" className="tab-pane fade in">
                 <h3 className="title-account">Register</h3>
-                <div className="sign-in-demo-notice">
-                  Username: <strong>demo</strong>
-                  <br />
-                  Password: <strong>demo</strong>
-                </div>
                 <div className="form-register">
                   <div className="inner">
                     <div className="container-form">
@@ -321,6 +317,8 @@ export default function HomePage() {
                             Register now{" "}
                           </button>
                         </div>
+                        <GoogleButton />
+                        <FaceBookLogin />
                       </form>
                     </div>
                   </div>
