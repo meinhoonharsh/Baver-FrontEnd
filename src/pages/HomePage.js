@@ -1,5 +1,4 @@
 import React from "react";
-import FaceBookLogin from "../components/FaceBookLogin";
 import Footer from "../components/Footer";
 import GoogleButton from "../components/GoogleButton";
 import Header from "../components/Header";
@@ -131,7 +130,7 @@ export default function HomePage() {
                           />
                         </div>
                         <GoogleButton />
-                        <FaceBookLogin />
+
                         <input
                           type="hidden"
                           id="security_login"
@@ -318,7 +317,6 @@ export default function HomePage() {
                           </button>
                         </div>
                         <GoogleButton />
-                        <FaceBookLogin />
                       </form>
                     </div>
                   </div>
