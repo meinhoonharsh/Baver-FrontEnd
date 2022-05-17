@@ -256,13 +256,14 @@ export default function Header() {
                                   <ul className="login-account">
                                     <li className="icon-log">
                                       <a
+                                        id="icon_log_a"
                                         href="#apus_login_forgot_tab"
                                         className="apus-user-login"
                                       >
                                         <i className="ti-user" />
                                       </a>
                                     </li>
-                                    <li>
+                                    <li id="signin_text">
                                       <a
                                         href="#apus_login_forgot_tab"
                                         className="apus-user-login wel-user"
