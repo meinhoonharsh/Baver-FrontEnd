@@ -36,7 +36,7 @@ export default function LandingSlider() {
                             padding: 0,
                             margin: "0px auto",
                             marginTop: 0,
-                            marginBottom: 0
+                            marginBottom: 0,
                           }}
                         >
                           <rs-module
@@ -70,7 +70,7 @@ export default function LandingSlider() {
                                   data-frame_999="o:0;st:w;sR:8700;"
                                   style={{
                                     zIndex: 5,
-                                    backgroundColor: "rgba(33,49,72,0.8)"
+                                    backgroundColor: "rgba(33,49,72,0.8)",
                                   }}
                                 ></rs-layer>
                                 {/*
@@ -87,10 +87,10 @@ export default function LandingSlider() {
                                   data-frame_999="o:0;st:w;sR:6890;"
                                   style={{
                                     zIndex: 6,
-                                    fontFamily: "Poppins"
+                                    fontFamily: "Poppins",
                                   }}
                                 >
-                                  Explore the secrets of romania
+                                  Explore the secrets of Indore
                                 </rs-layer>
                                 {/*
 
@@ -108,7 +108,7 @@ export default function LandingSlider() {
                                     zIndex: 7,
                                     fontFamily: "Lora",
                                     textTransform: "capitalize",
-                                    fontStyle: "italic"
+                                    fontStyle: "italic",
                                   }}
                                 >
                                   Setup in minut &amp; start growing your
@@ -134,7 +134,7 @@ export default function LandingSlider() {
                                     zIndex: 8,
                                     backgroundColor: "#fa983a",
                                     fontFamily: "Muli",
-                                    textTransform: "uppercase"
+                                    textTransform: "uppercase",
                                   }}
                                 >
                                   Get Started Now
@@ -167,7 +167,7 @@ export default function LandingSlider() {
                                   data-frame_999="o:0;st:w;sR:8700;"
                                   style={{
                                     zIndex: 5,
-                                    backgroundColor: "rgba(33,49,72,0.8)"
+                                    backgroundColor: "rgba(33,49,72,0.8)",
                                   }}
                                 ></rs-layer>
                                 {/*
@@ -184,7 +184,7 @@ export default function LandingSlider() {
                                   data-frame_999="o:0;st:w;sR:6890;"
                                   style={{
                                     zIndex: 6,
-                                    fontFamily: "Poppins"
+                                    fontFamily: "Poppins",
                                   }}
                                 >
                                   You Own Local Events
@@ -205,7 +205,7 @@ export default function LandingSlider() {
                                     zIndex: 7,
                                     fontFamily: "Lora",
                                     textTransform: "capitalize",
-                                    fontStyle: "italic"
+                                    fontStyle: "italic",
                                   }}
                                 >
                                   Setup in minut &amp; start growing your
@@ -231,7 +231,7 @@ export default function LandingSlider() {
                                     zIndex: 8,
                                     backgroundColor: "#fa983a",
                                     fontFamily: "Muli",
-                                    textTransform: "uppercase"
+                                    textTransform: "uppercase",
                                   }}
                                 >
                                   Get Started Now
@@ -264,7 +264,7 @@ export default function LandingSlider() {
                                   data-frame_999="o:0;st:w;sR:8700;"
                                   style={{
                                     zIndex: 5,
-                                    backgroundColor: "rgba(33,49,72,0.8)"
+                                    backgroundColor: "rgba(33,49,72,0.8)",
                                   }}
                                 ></rs-layer>
                                 {/*
@@ -283,7 +283,7 @@ export default function LandingSlider() {
                                   data-frame_999="o:0;st:w;sR:6770;"
                                   style={{
                                     zIndex: 6,
-                                    fontFamily: "Poppins"
+                                    fontFamily: "Poppins",
                                   }}
                                 >
                                   Explore the secrets of romania
@@ -306,7 +306,7 @@ export default function LandingSlider() {
                                     zIndex: 7,
                                     fontFamily: "Lora",
                                     textTransform: "capitalize",
-                                    fontStyle: "italic"
+                                    fontStyle: "italic",
                                   }}
                                 >
                                   Setup in minut &amp; start growing your
@@ -332,7 +332,7 @@ export default function LandingSlider() {
                                     zIndex: 8,
                                     backgroundColor: "#fa983a",
                                     fontFamily: "Muli",
-                                    textTransform: "uppercase"
+                                    textTransform: "uppercase",
                                   }}
                                 >
                                   Get Started Now
@@ -344,7 +344,7 @@ export default function LandingSlider() {
                             <rs-progress
                               className="rs-bottom"
                               style={{
-                                visibility: "hidden !important"
+                                visibility: "hidden !important",
                               }}
                             ></rs-progress>
                           </rs-module>

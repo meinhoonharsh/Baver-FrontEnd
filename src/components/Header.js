@@ -1,6 +1,7 @@
 import React from "react";
+import HeaderAvatar from "./HeaderAvatar";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <>
       <div id="apus-header" className="apus-header visible-lg header-1-78">
@@ -91,143 +92,14 @@ export default function Header() {
                                         id="primary-menu"
                                         className="nav navbar-nav megamenu effect1"
                                       >
-                                        <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-66 aligned-left">
-                                          <a
-                                            href="#"
-                                            className="dropdown-toggle"
-                                            data-hover="dropdown"
-                                            data-toggle="dropdown"
-                                          >
-                                            Home <b className="ti-angle-down" />
-                                          </a>
-                                          <ul className="dropdown-menu">
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-75 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/">
-                                                Home 1
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-52 current_page_item active menu-item-73 active  active  aligned-left">
-                                              <a href="index.html">Home 2</a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-72 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/home-3/">
-                                                Home 3
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-71 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/home-4/">
-                                                Home 4
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-251 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/home-5/">
-                                                Home 5
-                                              </a>
-                                            </li>
-                                          </ul>
+                                        <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent acive">
+                                          <a href="/home">Home </a>
                                         </li>
-                                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-307 aligned-left">
-                                          <a
-                                            href="https://www.demoapus-wp1.com/findus/listings/"
-                                            className="dropdown-toggle"
-                                            data-hover="dropdown"
-                                            data-toggle="dropdown"
-                                          >
-                                            Listings{" "}
-                                            <b className="ti-angle-down" />
-                                          </a>
-                                          <ul className="dropdown-menu">
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-621 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/listing-full/">
-                                                Listings – Full
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-615 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/listing-with-sidebar/">
-                                                Listings – Sidebar
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-616 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/listing-half-map/">
-                                                Listings – Half Map
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/listing-list/">
-                                                Listings – List
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-618 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/job/spotlight-club/">
-                                                Listing Detail
-                                              </a>
-                                            </li>
-                                          </ul>
+                                        <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent ">
+                                          <a href="/about">About</a>
                                         </li>
-                                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-70 aligned-left">
-                                          <a
-                                            href="https://www.demoapus-wp1.com/findus/blog/"
-                                            className="dropdown-toggle"
-                                            data-hover="dropdown"
-                                            data-toggle="dropdown"
-                                          >
-                                            Blog <b className="ti-angle-down" />
-                                          </a>
-                                          <ul className="dropdown-menu">
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-623 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/blog/?_preset=1580455841">
-                                                Blog – Sidebar
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-624 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/blog/?_preset=1580455912">
-                                                Blog – Full
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-622 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/blog/?_preset=1580455697">
-                                                Blog – List
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-post menu-item-625 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/why-people-use-listing-hub/">
-                                                Blog Detail
-                                              </a>
-                                            </li>
-                                          </ul>
-                                        </li>
-                                        <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-76 aligned-left">
-                                          <a
-                                            href="#"
-                                            className="dropdown-toggle"
-                                            data-hover="dropdown"
-                                            data-toggle="dropdown"
-                                          >
-                                            Pages{" "}
-                                            <b className="ti-angle-down" />
-                                          </a>
-                                          <ul className="dropdown-menu">
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/shop/">
-                                                Shop
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/contact/">
-                                                Contact
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-69 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/pricing/">
-                                                Pricing
-                                              </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-68 aligned-left">
-                                              <a href="https://www.demoapus-wp1.com/findus/404-2/">
-                                                404
-                                              </a>
-                                            </li>
-                                          </ul>
+                                        <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent ">
+                                          <a href="/contact">Contact</a>
                                         </li>
                                       </ul>
                                     </div>
@@ -245,36 +117,10 @@ export default function Header() {
                       >
                         <div className="elementor-column-wrap  elementor-element-populated">
                           <div className="elementor-widget-wrap">
-                            <div
-                              className="elementor-element elementor-element-44254a0 elementor-widget__width-auto elementor-widget elementor-widget-apus_user_info"
-                              data-id="44254a0"
-                              data-element_type="widget"
-                              data-widget_type="apus_user_info.default"
-                            >
-                              <div className="elementor-widget-container">
-                                <div className="account-login">
-                                  <ul className="login-account">
-                                    <li className="icon-log">
-                                      <a
-                                        id="icon_log_a"
-                                        href="#apus_login_forgot_tab"
-                                        className="apus-user-login"
-                                      >
-                                        <i className="ti-user" />
-                                      </a>
-                                    </li>
-                                    <li id="signin_text">
-                                      <a
-                                        href="#apus_login_forgot_tab"
-                                        className="apus-user-login wel-user"
-                                      >
-                                        Sign in
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
+                            <HeaderAvatar
+                              access_token={props.access_token}
+                              user_data={props.user_data}
+                            />
                             <div
                               className="elementor-element elementor-element-56eb1e6 elementor-widget__width-auto elementor-widget elementor-widget-apus_listings_add_listing_btn"
                               data-id="56eb1e6"
